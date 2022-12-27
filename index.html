@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de Texto con JavaScript</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="https://app.embed.im/snow.js"></script>
+  </head>
+
+  <body>
+    <main class="main">
+      <header class="header">
+        <h1 class="titulo">Encriptador de Texto con JavaScript</h1>
+      </header>
+
+      <div class="contenedor">
+        <form class="formulario">
+          <label for="inputTexto">Mensaje que será encriptado:</label>
+          <textarea
+            class="form-control mb-3"
+            name="inputTexto"
+            id="inputTexto"
+            placeholder="Ingrese su mensaje aquí"
+            rows="5"
+            cols="50"
+          ></textarea>
+          <div class="button-container justify-content-end d-flex">
+            <input
+              class="btn Encriptar"
+              type="submit"
+              value="Encriptar"
+              id="botonEncriptar"
+            />
+            <input
+              class="btn Desencriptar"
+              type="submit"
+              value="Desencriptar"
+              id="botonDesencriptar"
+            />
+          </div>
+        </form>
+
+        <div class="encriptado">
+          <label for="inputResultado">Mensaje encriptado:</label>
+          <textarea
+            class="form-control"
+            name="inputResultado"
+            id="inputResultado"
+            placeholder="Su mensaje encriptado aparecerá aquí"
+            rows="5"
+            cols="50"
+          ></textarea>
+          <div class="button-container justify-content-end d-flex">
+            <input
+              class="btn CopiarTexto"
+              type="submit"
+              value="Copiar Texto"
+              id="botonCopiar"
+            />
+          </div>
+        </div>
+      </div>
+
+      <footer>Desarrollado por Francisco Torres Desarrollador Web</footer>
+    </main>
+  </body>
+  <script src="js/script.js"></script>
+</html>

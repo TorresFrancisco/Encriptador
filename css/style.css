@@ -1,0 +1,94 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body  {
+  min-width:600px;
+  max-width:2000px;
+  background-image: url(../images/navidad.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+  margin: 0;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: 1fr auto;
+}
+
+.contenedor {
+  align-items: center;
+  padding: 1%;
+}
+
+label, h1 {
+  color: #FFFFFF;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.formulario{
+  margin-left: 12%;
+  padding: 1%;
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.encriptado {
+  margin-left: 12%;
+  padding: 1%;
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 5px;
+  padding: 5px;
+}
+
+.Encriptar {
+  background-color: #39bd18;
+}
+
+.Desencriptar {
+  background-color: #2da9be;
+}
+
+.CopiarTexto{
+  background-color: #3d3dc7;
+}
+
+textarea {
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 1rem;
+  margin: 5px;
+  padding: 5px;
+  resize: auto;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
